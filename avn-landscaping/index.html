@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVN Landscaping — New Britain, CT</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:#333;line-height:1.6}
+a{text-decoration:none}
+.hero{background:linear-gradient(135deg,#1b5e20 0%,#2e7d32 40%,#43a047 100%);color:#fff;text-align:center;padding:100px 20px 80px}
+.hero h1{font-size:3rem;font-weight:800;margin-bottom:8px;letter-spacing:-1px}
+.hero .tagline{font-size:1.3rem;opacity:.9;margin-bottom:6px}
+.hero .location{font-size:1rem;opacity:.75;margin-bottom:30px}
+.hero .cta{display:inline-block;background:#fff;color:#2e7d32;font-weight:700;padding:14px 36px;border-radius:8px;font-size:1.1rem;transition:transform .2s,box-shadow .2s}
+.hero .cta:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.2)}
+section{padding:70px 20px;max-width:1100px;margin:0 auto}
+.section-title{text-align:center;font-size:2rem;font-weight:700;color:#2e7d32;margin-bottom:12px}
+.section-sub{text-align:center;color:#666;max-width:600px;margin:0 auto 40px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.card{background:#e8f5e9;border:1px solid #c8e6c9;border-radius:12px;padding:30px 24px;text-align:center;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(46,125,50,.12)}
+.card .emoji{font-size:2.4rem;margin-bottom:12px}
+.card h3{font-size:1.15rem;color:#2e7d32;margin-bottom:8px}
+.card p{font-size:.95rem;color:#555}
+.about{background:#f9fdf9}
+.about-inner{max-width:1100px;margin:0 auto;padding:70px 20px;display:flex;gap:40px;align-items:center;flex-wrap:wrap}
+.about-text{flex:1;min-width:280px}
+.about-text h2{font-size:2rem;font-weight:700;color:#2e7d32;margin-bottom:16px}
+.about-text p{color:#555;margin-bottom:14px}
+.about-stat{flex:0 0 220px;text-align:center;background:#e8f5e9;border-radius:16px;padding:40px 20px}
+.about-stat .num{font-size:3.5rem;font-weight:800;color:#2e7d32}
+.about-stat .label{color:#555;font-size:1rem}
+.contact{background:#1b5e20;color:#fff;text-align:center;padding:70px 20px}
+.contact h2{font-size:2rem;font-weight:700;margin-bottom:12px}
+.contact p{opacity:.85;margin-bottom:30px;max-width:500px;margin-left:auto;margin-right:auto}
+.contact .cta{display:inline-block;background:#fff;color:#2e7d32;font-weight:700;padding:14px 36px;border-radius:8px;font-size:1.1rem}
+footer{background:#1a1a1a;color:#aaa;text-align:center;padding:30px 20px;font-size:.9rem}
+@media(max-width:600px){
+.hero h1{font-size:2rem}
+.hero{padding:70px 20px 50px}
+.about-inner{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>AVN Landscaping</h1>
+  <div class="tagline">Transforming Outdoor Spaces for Over 20 Years</div>
+  <div class="location">📍 New Britain, Connecticut</div>
+  <a href="#contact" class="cta">Get a Free Estimate</a>
+</div>
+
+<section>
+  <h2 class="section-title">Our Services</h2>
+  <p class="section-sub">From design to installation, we deliver quality craftsmanship backed by two decades of experience.</p>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">🌿</div>
+      <h3>Landscaping</h3>
+      <p>Complete landscape design, planting, mulching, and seasonal maintenance to keep your yard looking its best.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🧱</div>
+      <h3>Hardscaping</h3>
+      <p>Walkways, driveways, stone walls, and custom hardscape features built to last for decades.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">💦</div>
+      <h3>Power Washing</h3>
+      <p>Restore driveways, siding, patios, and fences to like-new condition with professional pressure washing.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🪵</div>
+      <h3>Deck Repair</h3>
+      <p>Board replacement, staining, sealing, and structural repairs to extend the life of your deck.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🏗️</div>
+      <h3>Patio Installation</h3>
+      <p>Custom patios in pavers, bluestone, or stamped concrete — designed for your outdoor lifestyle.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🪨</div>
+      <h3>Retaining Walls</h3>
+      <p>Engineered retaining walls that solve drainage issues and add stunning dimension to your property.</p>
+    </div>
+  </div>
+</section>
+
+<div class="about">
+  <div class="about-inner">
+    <div class="about-text">
+      <h2>Why AVN Landscaping?</h2>
+      <p>For over 20 years, AVN Landscaping has been the trusted name in New Britain and central Connecticut for quality outdoor work. We treat every property like it's our own.</p>
+      <p>From small residential projects to large-scale transformations, our experienced crew delivers on time and on budget — every time.</p>
+    </div>
+    <div class="about-stat">
+      <div class="num">20+</div>
+      <div class="label">Years of Experience</div>
+    </div>
+  </div>
+</div>
+
+<div class="contact" id="contact">
+  <h2>Ready to Transform Your Property?</h2>
+  <p>Contact us today for a free, no-obligation estimate. We serve New Britain and all of central Connecticut.</p>
+  <a href="#" class="cta">Request Your Free Quote</a>
+</div>
+
+<footer>
+  &copy; 2025 AVN Landscaping &middot; New Britain, CT &middot; All Rights Reserved
+</footer>
+
+</body>
+</html>
