@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RC Lawn Care LLC</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:#222;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+.hero{background:linear-gradient(135deg,#2e7d32 0%,#43a047 50%,#2e7d32 100%);color:#fff;padding:clamp(60px,12vw,120px) 20px;text-align:center}
+.hero h1{font-size:clamp(1.8rem,4vw,3.2rem);font-weight:800;margin-bottom:12px}
+.hero .tagline{font-size:clamp(1rem,2vw,1.4rem);opacity:.9;margin-bottom:8px}
+.hero .location{font-size:clamp(.85rem,1.5vw,1.05rem);opacity:.75;margin-bottom:8px}
+.hero .phone{font-size:clamp(1rem,1.8vw,1.3rem);font-weight:700;margin-bottom:12px}
+.hero .promo{background:rgba(255,255,255,.15);display:inline-block;padding:10px 24px;border-radius:6px;font-size:clamp(.85rem,1.3vw,1rem);margin-bottom:24px}
+.cta{display:inline-block;background:#5d4037;color:#fff;padding:14px 36px;border-radius:6px;font-size:clamp(.95rem,1.5vw,1.1rem);font-weight:700;transition:transform .2s,box-shadow .2s;cursor:pointer}
+.cta:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(93,64,55,.4)}
+
+.services{padding:clamp(40px,8vw,80px) 20px;background:#fff}
+.services h2,.about h2,.contact h2{text-align:center;font-size:clamp(1.4rem,3vw,2.2rem);margin-bottom:40px;color:#2e7d32}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;max-width:1200px;margin:0 auto}
+.card{background:#e8f5e9;border-radius:10px;padding:28px 24px;text-align:center;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.card h3{color:#2e7d32;font-size:clamp(1rem,1.8vw,1.2rem);margin-bottom:10px}
+.card p{font-size:clamp(.85rem,1.3vw,.95rem);color:#444}
+
+.about{padding:clamp(40px,8vw,80px) 20px;background:#f5f7f5}
+.about-content{max-width:800px;margin:0 auto;text-align:center;font-size:clamp(.95rem,1.5vw,1.1rem);color:#333}
+.about-content p{margin-bottom:16px}
+.about-content .highlight{font-weight:700;color:#2e7d32;font-size:clamp(1.1rem,2vw,1.4rem)}
+
+.contact{padding:clamp(40px,8vw,80px) 20px;background:#2c2c2c;color:#fff}
+.contact h2{color:#fff}
+.contact-info{text-align:center;font-size:clamp(.95rem,1.5vw,1.1rem);opacity:.85}
+.contact-info p{margin-bottom:10px}
+.contact .cta{margin-top:20px}
+
+footer{background:#111;color:#aaa;text-align:center;padding:20px;font-size:clamp(.75rem,1.2vw,.9rem)}
+
+@media(max-width:768px){
+.grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+}
+@media(max-width:480px){
+.grid{grid-template-columns:1fr}
+.hero{padding:50px 16px}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<h1>RC Lawn Care LLC</h1>
+<p class="tagline">Waterbury's Premier Landscaping & Property Maintenance</p>
+<p class="location">Serving Waterbury, CT & Surrounding Areas</p>
+<p class="phone">(203) 525-7859</p>
+<p class="promo">10% Off Any Jobs Over $1000 | 10% Off Full Lawn Service w/ 1-Year Contract</p>
+<br>
+<a href="#contact" class="cta">Get a Free Estimate</a>
+</section>
+
+<section class="services">
+<div class="container">
+<h2>Our Services</h2>
+<div class="grid">
+<div class="card"><h3>Landscaping Design & Installation</h3><p>Custom landscape designs that transform your outdoor space into something extraordinary.</p></div>
+<div class="card"><h3>Lawn Mowing</h3><p>Regular, reliable mowing service to keep your property looking its best all season.</p></div>
+<div class="card"><h3>Spring & Fall Cleanups</h3><p>Thorough seasonal cleanups to prepare your lawn for the months ahead.</p></div>
+<div class="card"><h3>Fertilizing & Weed Control</h3><p>Professional lawn treatment programs for a lush, healthy, weed-free yard.</p></div>
+<div class="card"><h3>Mulching</h3><p>Quality mulch installation to protect your beds and enhance curb appeal.</p></div>
+<div class="card"><h3>Hedge & Tree Trimming</h3><p>Expert trimming and shaping to keep your trees and hedges healthy and attractive.</p></div>
+<div class="card"><h3>Masonry</h3><p>Patios, retaining walls, walkways, outdoor fireplaces, and kitchens built to last.</p></div>
+<div class="card"><h3>Outdoor Lighting</h3><p>Professional landscape lighting to highlight your property and improve safety.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about">
+<h2>Why Choose RC Lawn Care?</h2>
+<div class="about-content">
+<p class="highlight">Free Estimates - Commercial & Residential</p>
+<p>RC Lawn Care LLC is the premier landscaping service in the Waterbury, CT area. We handle everything from routine lawn maintenance to full-scale masonry and landscape installations.</p>
+<p>Our qualified, certified, and insured team brings years of hands-on experience to every project. Whether you need weekly mowing or a complete outdoor transformation, we deliver professional results you can count on.</p>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<div class="contact-info">
+<p>Serving Waterbury, CT & Surrounding Areas</p>
+<p style="font-size:clamp(1.1rem,2vw,1.4rem);font-weight:700">(203) 525-7859</p>
+<a href="tel:2035257859" class="cta">Call for a Free Estimate</a>
+</div>
+</section>
+
+<footer>
+<p>Built by Shore Digital</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mascia's Lawn Care LLC | Waterbury, CT</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#33691e;--accent:#43a047;--card-bg:#e8f5e9;--dark:#1b3a0a;--text:#333;--light:#f9fdf7}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--text);line-height:1.6}
+h1{font-size:clamp(2rem,5vw,3.5rem)}
+h2{font-size:clamp(1.5rem,3.5vw,2.5rem);text-align:center;margin-bottom:1rem}
+h3{font-size:clamp(1.1rem,2vw,1.4rem)}
+p{font-size:clamp(0.95rem,1.5vw,1.1rem)}
+.container{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;padding:6rem 1.5rem 5rem;text-align:center}
+.hero p{margin:0.75rem 0;opacity:0.92;font-size:clamp(1rem,2vw,1.3rem)}
+.hero .location{font-size:clamp(0.85rem,1.5vw,1rem);opacity:0.8;margin-top:0.5rem}
+.cta{display:inline-block;background:#fff;color:var(--primary);padding:0.9rem 2.2rem;border-radius:6px;text-decoration:none;font-weight:700;font-size:1.05rem;margin-top:1.5rem;transition:transform 0.2s,box-shadow 0.2s}
+.cta:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.2)}
+/* Services */
+.services{padding:5rem 1.5rem;background:var(--light)}
+.services .subtitle{text-align:center;color:#555;margin-bottom:3rem;max-width:600px;margin-left:auto;margin-right:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;max-width:1200px;margin:0 auto}
+.card{background:var(--card-bg);border-radius:10px;padding:2rem;text-align:center;border-top:4px solid var(--accent);transition:transform 0.2s}
+.card:hover{transform:translateY(-4px)}
+.card h3{color:var(--primary);margin-bottom:0.5rem}
+.card p{color:#555;font-size:0.95rem}
+/* About */
+.about{padding:5rem 1.5rem;background:#fff}
+.about-inner{max-width:800px;margin:0 auto;text-align:center}
+.about h2{color:var(--primary)}
+.about p{margin-top:1rem;color:#555}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin-top:2.5rem;text-align:center}
+.feature{padding:1.5rem}
+.feature h3{color:var(--accent);margin-bottom:0.5rem}
+/* Contact */
+.contact{background:var(--dark);color:#fff;padding:5rem 1.5rem;text-align:center}
+.contact h2{color:#fff}
+.contact p{opacity:0.85;margin-top:0.75rem}
+.contact .cta{margin-top:2rem;background:var(--accent);color:#fff}
+.contact .cta:hover{background:#388e3c}
+/* Footer */
+footer{background:#111;color:#aaa;text-align:center;padding:2rem 1rem;font-size:0.9rem}
+footer a{color:var(--accent);text-decoration:none}
+@media(max-width:768px){.hero{padding:4rem 1.5rem 3.5rem}.services,.about,.contact{padding:3.5rem 1rem}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.cta{width:100%;text-align:center}}
+</style>
+</head>
+<body>
+<section class="hero">
+<h1>Mascia's Lawn Care LLC</h1>
+<p>Quality Lawn Care for Waterbury &amp; Surrounding Communities</p>
+<p class="location">Serving Waterbury, Oakville, Cheshire, Middlebury, Wolcott &amp; Watertown, CT</p>
+<a href="#contact" class="cta">Get a Free Estimate</a>
+</section>
+
+<section class="services">
+<div class="container">
+<h2>Our Services</h2>
+<p class="subtitle">Professional lawn care and property maintenance for residential and small commercial properties.</p>
+<div class="grid">
+<div class="card"><h3>Lawn Mowing</h3><p>Weekly or biweekly mowing schedules tailored to seasonal growth patterns for a consistently pristine lawn.</p></div>
+<div class="card"><h3>Mulching</h3><p>Quality mulch installation to protect plant beds, retain moisture, and give your landscape a polished look.</p></div>
+<div class="card"><h3>Spring &amp; Fall Cleanups</h3><p>Comprehensive seasonal cleanups to prepare your property for the months ahead and keep it looking its best.</p></div>
+<div class="card"><h3>Tree Removal</h3><p>Safe and efficient tree removal services for hazardous, dead, or unwanted trees on your property.</p></div>
+<div class="card"><h3>Hedge Trimming</h3><p>Expert shaping and trimming to keep your hedges healthy, neat, and enhancing your curb appeal.</p></div>
+<div class="card"><h3>Snow Removal</h3><p>Reliable winter snow removal to keep your driveways, walkways, and parking areas clear and safe.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about">
+<div class="about-inner">
+<h2>About Mascia's Lawn Care</h2>
+<p>Founded in 2011 by a father and son team, Mascia's Lawn Care LLC is a family business built on hard work, reliability, and a genuine love for the craft. We specialize in residential and small commercial properties throughout the greater Waterbury area.</p>
+<p>We adjust our mowing schedules -- weekly or biweekly -- based on the season and your lawn's needs, ensuring optimal results year-round. Our commitment to 100% customer satisfaction drives everything we do.</p>
+<div class="features">
+<div class="feature"><h3>Family Owned</h3><p>Father and son team since 2011 with deep roots in the Waterbury community.</p></div>
+<div class="feature"><h3>Reliable Service</h3><p>Consistent scheduling adapted to seasonal conditions for the best results.</p></div>
+<div class="feature"><h3>100% Satisfaction</h3><p>We stand behind our work with a complete customer satisfaction guarantee.</p></div>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Get In Touch</h2>
+<p>Ready for a lawn you can be proud of? Contact us today for a free, no-obligation estimate.</p>
+<p>Serving Waterbury, Oakville, Cheshire, Middlebury, Wolcott &amp; Watertown</p>
+<a href="#" class="cta">Request Your Free Estimate</a>
+</section>
+
+<footer>
+<p>Mascia's Lawn Care LLC &mdash; Waterbury, CT</p>
+<p style="margin-top:0.5rem">Built by <a href="#">Shore Digital</a></p>
+</footer>
+</body>
+</html>

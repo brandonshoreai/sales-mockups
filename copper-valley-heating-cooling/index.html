@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Copper Valley Heating & Cooling</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:#222;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,#0d47a1 0%,#1565c0 50%,#0d47a1 100%);color:#fff;padding:clamp(60px,12vw,120px) 20px;text-align:center}
+.hero h1{font-size:clamp(1.8rem,4vw,3.2rem);font-weight:800;margin-bottom:12px}
+.hero .tagline{font-size:clamp(1rem,2vw,1.4rem);opacity:.9;margin-bottom:8px}
+.hero .location{font-size:clamp(.85rem,1.5vw,1.05rem);opacity:.75;margin-bottom:6px}
+.hero .hours{font-size:clamp(.8rem,1.3vw,1rem);opacity:.7;margin-bottom:24px}
+.hero .license{font-size:clamp(.7rem,1.1vw,.85rem);opacity:.55;margin-bottom:28px}
+.cta{display:inline-block;background:#ff6d00;color:#fff;padding:14px 36px;border-radius:6px;font-size:clamp(.95rem,1.5vw,1.1rem);font-weight:700;transition:transform .2s,box-shadow .2s;cursor:pointer}
+.cta:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(255,109,0,.4)}
+
+/* Services */
+.services{padding:clamp(40px,8vw,80px) 20px;background:#fff}
+.services h2,.about h2,.contact h2{text-align:center;font-size:clamp(1.4rem,3vw,2.2rem);margin-bottom:40px;color:#0d47a1}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;max-width:1200px;margin:0 auto}
+.card{background:#e3f2fd;border-radius:10px;padding:28px 24px;text-align:center;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.card h3{color:#0d47a1;font-size:clamp(1rem,1.8vw,1.2rem);margin-bottom:10px}
+.card p{font-size:clamp(.85rem,1.3vw,.95rem);color:#444}
+
+/* About */
+.about{padding:clamp(40px,8vw,80px) 20px;background:#f5f7fa}
+.about-content{max-width:800px;margin:0 auto;text-align:center;font-size:clamp(.95rem,1.5vw,1.1rem);color:#333}
+.about-content p{margin-bottom:16px}
+.about-content .highlight{font-weight:700;color:#0d47a1;font-size:clamp(1.1rem,2vw,1.4rem)}
+
+/* Contact */
+.contact{padding:clamp(40px,8vw,80px) 20px;background:#1a1a2e;color:#fff}
+.contact h2{color:#fff}
+.contact-info{text-align:center;font-size:clamp(.95rem,1.5vw,1.1rem);opacity:.85}
+.contact-info p{margin-bottom:10px}
+.contact .cta{margin-top:20px}
+
+/* Footer */
+footer{background:#111;color:#aaa;text-align:center;padding:20px;font-size:clamp(.75rem,1.2vw,.9rem)}
+
+@media(max-width:768px){
+.grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+}
+@media(max-width:480px){
+.grid{grid-template-columns:1fr}
+.hero{padding:50px 16px}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<h1>Copper Valley Heating & Cooling</h1>
+<p class="tagline">Middletown & Meriden's Trusted HVAC Professionals</p>
+<p class="location">78-C Golden Street, Meriden, CT 06450</p>
+<p class="hours">9:00am - 5:00pm, Every Day | 24/7 Emergency Service</p>
+<p class="license">CT License 390363 S1 Unlimited Heating & Air Conditioning Contractor</p>
+<a href="#contact" class="cta">Call Us Today</a>
+</section>
+
+<section class="services">
+<div class="container">
+<h2>Our Services</h2>
+<div class="grid">
+<div class="card"><h3>HVAC Installation</h3><p>Complete system installation for residential and commercial properties with expert precision.</p></div>
+<div class="card"><h3>HVAC Maintenance</h3><p>Routine maintenance programs to keep your system running efficiently year-round.</p></div>
+<div class="card"><h3>HVAC Repairs</h3><p>Fast, reliable repair service to restore your comfort when you need it most.</p></div>
+<div class="card"><h3>Air Conditioning</h3><p>Installation, repair, and maintenance of cooling systems for total home comfort.</p></div>
+<div class="card"><h3>Warm Air Heating</h3><p>Efficient warm air heating solutions designed for Connecticut winters.</p></div>
+<div class="card"><h3>Hot Water Boilers</h3><p>Expert boiler installation and service to keep your home warm and comfortable.</p></div>
+<div class="card"><h3>Heat Pumps</h3><p>Energy-efficient heat pump systems for year-round climate control.</p></div>
+<div class="card"><h3>Radiant Heating</h3><p>Luxurious radiant floor and panel heating for consistent, even warmth.</p></div>
+<div class="card"><h3>Electric Furnaces</h3><p>Professional electric furnace installation and service you can depend on.</p></div>
+<div class="card"><h3>Hot Water Heaters</h3><p>Reliable hot water heater solutions for every home size and budget.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about">
+<h2>Why Choose Copper Valley?</h2>
+<div class="about-content">
+<p class="highlight">"One call does it all."</p>
+<p>With over 10 years of experience serving the Middletown and Meriden areas, Copper Valley Heating & Cooling has built a reputation for quality workmanship and dependable service.</p>
+<p>We operate our own fabrication facility, allowing us to design and build custom ductwork tailored to your property. From large housing developments to single-family homes, we deliver the same level of professional care and attention to detail on every job.</p>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Get In Touch</h2>
+<div class="contact-info">
+<p>78-C Golden Street, Meriden, CT 06450</p>
+<p>Open 9:00am - 5:00pm, Every Day | 24/7 Emergency Service</p>
+<a href="#" class="cta">Call Us Today</a>
+</div>
+</section>
+
+<footer>
+<p>Built by Shore Digital</p>
+</footer>
+
+</body>
+</html>

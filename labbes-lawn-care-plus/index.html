@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Labbe's Lawn Care Plus LLC | Eastford, CT</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#2e7d32;--accent:#4e342e;--card-bg:#f1f8e9;--dark:#2c2017;--text:#333;--light:#f9fdf5}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--text);line-height:1.6}
+h1{font-size:clamp(2rem,5vw,3.5rem)}
+h2{font-size:clamp(1.5rem,3.5vw,2.5rem);text-align:center;margin-bottom:1rem}
+h3{font-size:clamp(1.1rem,2vw,1.4rem)}
+p{font-size:clamp(0.95rem,1.5vw,1.1rem)}
+.container{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.hero{background:linear-gradient(135deg,var(--primary),#558b2f);color:#fff;padding:6rem 1.5rem 5rem;text-align:center}
+.hero p{margin:0.75rem 0;opacity:0.92;font-size:clamp(1rem,2vw,1.3rem)}
+.hero .location{font-size:clamp(0.85rem,1.5vw,1rem);opacity:0.8;margin-top:0.5rem}
+.hero .badge{display:inline-block;background:var(--accent);color:#fff;padding:0.4rem 1.2rem;border-radius:20px;font-size:0.85rem;margin-top:0.75rem;letter-spacing:0.5px}
+.cta{display:inline-block;background:#fff;color:var(--primary);padding:0.9rem 2.2rem;border-radius:6px;text-decoration:none;font-weight:700;font-size:1.05rem;margin-top:1.5rem;transition:transform 0.2s,box-shadow 0.2s}
+.cta:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.2)}
+.services{padding:5rem 1.5rem;background:var(--light)}
+.services .subtitle{text-align:center;color:#555;margin-bottom:3rem;max-width:600px;margin-left:auto;margin-right:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;max-width:1200px;margin:0 auto}
+.card{background:var(--card-bg);border-radius:10px;padding:2rem;text-align:center;border-top:4px solid var(--primary);transition:transform 0.2s}
+.card:hover{transform:translateY(-4px)}
+.card h3{color:var(--primary);margin-bottom:0.5rem}
+.card p{color:#555;font-size:0.95rem}
+.about{padding:5rem 1.5rem;background:#fff}
+.about-inner{max-width:800px;margin:0 auto;text-align:center}
+.about h2{color:var(--primary)}
+.about p{margin-top:1rem;color:#555}
+.quote{font-size:clamp(1.1rem,2vw,1.4rem);font-style:italic;color:var(--accent);margin-top:1.5rem;padding:1rem 0;border-top:2px solid var(--card-bg);border-bottom:2px solid var(--card-bg)}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin-top:2.5rem}
+.feature{padding:1.5rem;text-align:center}
+.feature h3{color:var(--accent);margin-bottom:0.5rem}
+.service-area{padding:3rem 1.5rem;background:var(--card-bg);text-align:center}
+.service-area h2{color:var(--primary)}
+.area-list{max-width:800px;margin:1.5rem auto 0;color:#555;line-height:1.8}
+.contact{background:var(--dark);color:#fff;padding:5rem 1.5rem;text-align:center}
+.contact h2{color:#fff}
+.contact p{opacity:0.85;margin-top:0.75rem}
+.contact .info{font-size:clamp(1rem,2vw,1.2rem);opacity:1;font-weight:600}
+.contact .cta{margin-top:2rem;background:var(--primary);color:#fff}
+.contact .cta:hover{background:#388e3c}
+footer{background:#111;color:#aaa;text-align:center;padding:2rem 1rem;font-size:0.9rem}
+footer a{color:var(--primary);text-decoration:none}
+@media(max-width:768px){.hero{padding:4rem 1.5rem 3.5rem}.services,.about,.contact,.service-area{padding:3.5rem 1rem}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.cta{width:100%;text-align:center}}
+</style>
+</head>
+<body>
+<section class="hero">
+<h1>Labbe's Lawn Care Plus LLC</h1>
+<p>Northeast Connecticut's Trusted Lawn Care Professionals</p>
+<p class="location">54 Hartford Tpke, Eastford, CT 06242</p>
+<span class="badge">Coming Soon 2026: Brooklyn, CT</span>
+<br>
+<a href="#contact" class="cta">Get a Free Estimate</a>
+</section>
+
+<section class="services">
+<div class="container">
+<h2>Our Services</h2>
+<p class="subtitle">Expert lawn care and property maintenance backed by years of experience and a commitment to quality.</p>
+<div class="grid">
+<div class="card"><h3>Lawn Mowing</h3><p>Professional mowing services that keep your lawn looking sharp and healthy throughout the growing season.</p></div>
+<div class="card"><h3>Spring &amp; Fall Cleanup</h3><p>Thorough seasonal cleanups to clear debris, leaves, and prepare your property for the months ahead.</p></div>
+<div class="card"><h3>Hedge &amp; Shrub Trimming</h3><p>Precision trimming and shaping to maintain the health and appearance of your hedges and shrubs.</p></div>
+<div class="card"><h3>Mulching</h3><p>Quality mulch installation to enhance your landscape beds, suppress weeds, and retain soil moisture.</p></div>
+<div class="card"><h3>Fertilization</h3><p>Custom fertilization programs to promote thick, green growth and long-term lawn health.</p></div>
+<div class="card"><h3>Aeration &amp; Overseeding</h3><p>Core aeration and overseeding to reduce compaction, improve drainage, and thicken your turf.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about">
+<div class="about-inner">
+<h2>Why Choose Labbe's</h2>
+<p>Since 2018, Labbe's Lawn Care Plus has been a trusted name in Northeast Connecticut. Our expert team is committed to delivering quality results and exceptional customer service on every job.</p>
+<p class="quote">"Not your typical lawn care company -- We WILL call you back!"</p>
+<div class="features">
+<div class="feature"><h3>Since 2018</h3><p>Years of trusted local service throughout Northeast Connecticut.</p></div>
+<div class="feature"><h3>Responsive</h3><p>We return every call and follow through on every commitment.</p></div>
+<div class="feature"><h3>Quality First</h3><p>Expert team dedicated to delivering results that exceed expectations.</p></div>
+</div>
+</div>
+</section>
+
+<section class="service-area">
+<h2>Service Area</h2>
+<p class="area-list">Ashford, Brooklyn, Chaplin, Canterbury, Danielson, Dayville, Eastford, Hampton, Killingly, Mansfield, Pomfret, Putnam, North Grosvenordale, Scotland, Thompson, Windham, Willington, Woodstock</p>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<p class="info">860-377-0200</p>
+<p>54 Hartford Tpke, Eastford, CT 06242</p>
+<p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+<a href="tel:8603770200" class="cta">Call Now</a>
+</section>
+
+<footer>
+<p>Labbe's Lawn Care Plus LLC &mdash; Eastford, CT</p>
+<p style="margin-top:0.5rem">Built by <a href="#">Shore Digital</a></p>
+</footer>
+</body>
+</html>
